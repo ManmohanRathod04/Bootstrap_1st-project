@@ -1,0 +1,211 @@
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color:#000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head::after{
+    background-color: #30336b;
+    content:"";
+    display: block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+
+#header{
+    background-color: #30336b;
+    color:#fff;
+}
+
+#logo{
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+    
+}
+
+#menu li a{
+    color:#fff;
+    padding:15px 10px;
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: #130f40;
+}
+
+/* Banner Start */
+#banner{
+    background: url("../img/plant-1081856_1280.jpg") no-repeat 0 0; 
+    background-size: cover;
+    
+}
+
+.banner-title{
+     padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(24, 29, 48, 0.5);
+    padding:10px;
+    margin: 0;
+    display: inline-block;
+    color:#fefeff;
+}
+
+.banner-title p.lead{
+    background: rgba(60, 99, 130,0.6);
+    color:#fff;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box img{
+    height:150px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+/* testominial */
+
+#testominial{
+   background: url(../img/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg) no-repeat 0 0;
+   background-size: cover;
+   padding:15px 0;
+   position: relative;
+   color:#fff;
+   
+}
+
+#testominial:before{
+    background-color: rgba(52, 73, 94, 0.6);
+    content:"";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height:100%;
+}
+
+.testimonial img{
+    width:75px;
+    height:75px;
+    border-radius: 100%;
+
+}
+
+.news-post img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: #30336b;
+    text-decoration: none;
+}
+
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+a.readmore{
+    font-size: 14px;
+    color:#30336b;
+    text-decoration: none;
+}
+
+/* footer-sidebar */
+#footer-sidebar{
+    color:#fff;
+    background-color: #34495e;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fotter-widget h4:after{
+    content:"";
+    background-color: #fff;
+    display: block;
+    height:2px;
+    width:50px;
+    margin:5px 0;
+    border-bottom: 5px;
+
+}
+
+.fotter-widget a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.latest-news{
+    list-style: none;
+    padding:0;
+    margin: 0;
+} 
+
+.latest-news li{
+    margin-bottom: 3px;
+    
+}
+
+#footer{
+    background-color: #2c3e50;
+    color:#fff;
+    padding:10px 0;
+}
+
+#social-icon{
+    list-style: none;
+    color:#fff;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#social-icon li{
+    display: inline-block;
+    padding-left: 5px;
+    
+}
+
+#social-icon .img1{
+
+    font-size: 23px;
+    background: url(../img/facebook.png) no-repeat 0 0;
+    background-size: cover;
+    width:30px;
+    height:30px;
+    
+}
+
+#social-icon .img2{
+    font-size: 23px;
+    background: url(../img/twitter.png) no-repeat 0 0;
+    background-size: cover;
+    width:30px;
+    height:30px;
+    
+}
